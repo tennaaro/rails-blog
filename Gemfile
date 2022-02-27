@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 # Adding new gems
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
 gem 'bulma-rails', '~> 0.9.3'
 gem 'simple_form', '~> 5.1'
 
@@ -51,6 +51,7 @@ group :development do
   # gem guard istall
   gem 'guard', '~> 2.18'
   gem 'guard-livereload', '~> 2.5', require: false
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
 end
 
 group :test do
